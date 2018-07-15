@@ -1,17 +1,47 @@
 
-
-.body {
-  background-color: black;
+/* STYLESHEET NOT LINKING TO HTML */
+body {
+  background-color: silver;
+  max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.pagetopcontent img {
-   float: left;
-
+/*Centers the width of the image on the webpage */
+#pagemiddlecontent img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-.pagetocontent h1 {
-  float: right;
+hr {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  color: black;
 }
+
+
+
+/*flex wrap the hyperlinks */
+
+#pagebottomcontent{
+  display: flex;
+  flex-wrap: wrap;
+
+/*  margin-left: 0%;
+  margin-right: 0%;
+  justify-content: start; */
+}
+
+.contactphotosinstagram,.contactphotoslinkedin,.contactphotosgithub,.contactphotosgmail {
+  width: 25%;
+  padding: 0%;
+  margin: 0%;
+}
+
+
 
 /*add thickness and max width for <hr> ex. <hr size="30">  hr{width:50%;margin:0 auto;}*/
 
