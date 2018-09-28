@@ -1,7 +1,7 @@
 
 /* STYLESHEET NOT LINKING TO HTML */
 body {
-  background-color: silver;
+  background-color: #e9d783;
   max-width: 1000px;
   display: block;
   margin-left: auto;
@@ -44,6 +44,7 @@ hr {
 #pagebottomcontent {
   display: flex;
   flex-wrap: wrap;
+  /*justify-content: space-between; NEED A SOLUTION FOR SPACING IMAGES ACROSS THE MAX WIDTH*/
   width: 100%;
   max-width: 1000px;
 }
