@@ -1,5 +1,4 @@
-
-/* STYLESHEET NOT LINKING TO HTML */
+/**/
 body {
   background-color: #e9d783;
   max-width: 1000px;
@@ -19,7 +18,6 @@ body {
   font-family: Helvetica;
   font-size: 50px;
   clear: right;
-
 }
 
 #pagetopcontent .title {
@@ -27,7 +25,6 @@ body {
   font-size: 30px;
   font-style: italic;
   clear: right;
-
 }
 
 hr {
@@ -37,14 +34,14 @@ hr {
   color: black;
 }
 
-
-
 /*flex wrap the hyperlinks */
 
+/*justify-content: space-between; works when I inspect, but when I refresh page images are not spaced correctly...
+ visually see how flex wraps work here https://yoksel.github.io/flex-cheatsheet/ ...it should be working*/
 #pagebottomcontent {
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: space-between; NEED A SOLUTION FOR SPACING IMAGES ACROSS THE MAX WIDTH*/
+  justify-content: space-between;
   width: 100%;
   max-width: 1000px;
 }
@@ -59,11 +56,13 @@ hr {
 /*figcaption {
   text-align: center;
 }
+*/
 
+/*
 figure {
   align-items: center;
-}*/
-
+}
+*/
 
 /*.contactphotosinstagram,.contactphotoslinkedin,.contactphotosgithub,.contactphotosgmail {
   margin-inline-start: 0%;
@@ -71,17 +70,4 @@ figure {
 }*/
 
 
-
 /*add thickness and max width for <hr> ex. <hr size="30">  hr{width:50%;margin:0 auto;}*/
-
-/* make name and title float by profile picture*/
-
-/* add breakers*/
-
-/* add auto page margins*/
-
-/*Change font types and sizes*/
-
-/* */
-
-/* */
