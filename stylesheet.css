@@ -41,21 +41,25 @@ hr {
 
 /*flex wrap the hyperlinks */
 
-#pagebottomcontent{
+#pagebottomcontent {
   display: flex;
   flex-wrap: wrap;
-
-/*  margin-left: 0%;
-  margin-right: 0%;
-  justify-content: start; */
 }
 
-.contactphotosinstagram,.contactphotoslinkedin,.contactphotosgithub,.contactphotosgmail {
-  width: 25%;
-  padding: 0%;
-  margin: 0%;
-
+#pagebottomcontent figure {
+  margin-inline-start: 0%;
+  margin-inline-end: 0%;
 }
+
+#pagebottomcontent figcaption{
+  text-align: center;
+}
+/**/
+
+/*.contactphotosinstagram,.contactphotoslinkedin,.contactphotosgithub,.contactphotosgmail {
+  margin-inline-start: 0%;
+  margin-inline-end: 0%;
+}*/
 
 
 
