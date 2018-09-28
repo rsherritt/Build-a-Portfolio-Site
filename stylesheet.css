@@ -44,17 +44,25 @@ hr {
 #pagebottomcontent {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
 }
 
 #pagebottomcontent figure {
   margin-inline-start: 0%;
   margin-inline-end: 0%;
+  max-width: 25%;
+  max-height: 100%;
 }
 
-#pagebottomcontent figcaption{
+/*figcaption {
   text-align: center;
 }
-/**/
+
+figure {
+  align-items: center;
+}*/
+
 
 /*.contactphotosinstagram,.contactphotoslinkedin,.contactphotosgithub,.contactphotosgmail {
   margin-inline-start: 0%;
