@@ -7,13 +7,6 @@ body {
   margin-right: auto;
 }
 
-/*Centers the width of the image on the webpage */
-#pagemiddlecontent img {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-}
-
 #pagetopcontent .name {
   font-family: Helvetica;
   font-size: 50px;
@@ -32,9 +25,21 @@ hr {
   margin-bottom: 20px;
   margin-top: 15px;
   color: black;
+  clear: both; /*need this to have line break below profile picture in firefox*/
 }
 
-/*flex wrap the hyperlinks */
+/*Centers the width of the image on the webpage */
+#pagemiddlecontent img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.contactsectiontitle {
+  font-family: Helvetica;
+}
+
+/*flex wrap the contact info photo links */
 
 /*justify-content: space-between; works when I inspect, but when I refresh page images are not spaced correctly...
  visually see how flex wraps work here https://yoksel.github.io/flex-cheatsheet/ ...it should be working*/
@@ -53,10 +58,10 @@ hr {
   max-height: 100%;
 }
 
-/*figcaption {
-  text-align: center;
+figcaption {
+  font-family: Helvetica;
 }
-*/
+
 
 /*
 figure {
