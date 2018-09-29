@@ -20,6 +20,11 @@ body {
   clear: right;
 }
 
+.profilepic {
+  width: 200px;
+  height: 200px;
+}
+
 hr {
   width: 100%;
   margin-bottom: 20px;
@@ -33,6 +38,9 @@ hr {
    display: block;
    margin-left: auto;
    margin-right: auto;
+   width: 100%;
+   height: 400px;
+   max-width: 1000px;
 }
 
 .contactsectiontitle {
@@ -41,7 +49,7 @@ hr {
 
 /*flex wrap the contact info photo links */
 
-/*justify-content: space-between; works when I inspect, but when I refresh page images are not spaced correctly...
+/*justify-content: space-between; works when I inspect page, but when I refresh page images are not spaced correctly...
  visually see how flex wraps work here https://yoksel.github.io/flex-cheatsheet/ ...it should be working*/
 #pagebottomcontent {
   display: flex;
@@ -61,6 +69,75 @@ hr {
 figcaption {
   font-family: Helvetica;
 }
+
+.udacitylogo {
+  width: 150px;
+  height: 100px;
+}
+
+/*Media Query Breakers*/
+
+ @media screen and (max-width: 544px) {
+   #pagetopcontent .name {
+     font-size: 18px;
+     }
+
+     #pagetopcontent .title {
+     font-size: 10px;
+     }
+
+    .profilepic {
+      width: 100px;
+      height: 100px;
+    }
+
+    .udacitylogo {
+      width: 75px;
+      height: 40px;
+    }
+
+  #pagemiddlecontent img {
+  height: 200px;
+  width: 100%;
+  }
+
+  .contactsectiontitle {
+  font-size: 18px;
+  }
+
+  }
+
+
+  @media screen and (min-width: 545px) and (max-width: 770px) {
+
+  #pagetopcontent .name {
+    font-size: 35px;
+    }
+
+    #pagetopcontent .title {
+    font-size: 20px;
+    }
+
+    .profilepic {
+      width: 150px;
+      height: 150px;
+    }
+
+    .udacitylogo {
+      width: 100px;
+      height: 50px;
+    }
+
+   #pagemiddlecontent img {
+   height: 300px;
+  width: 100%;
+  }
+
+.contactsectiontitle {
+font-size: 35px;
+}
+
+  }
 
 
 /*
