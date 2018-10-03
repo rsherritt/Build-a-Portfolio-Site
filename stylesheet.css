@@ -59,15 +59,13 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
+  width: 100%
   max-width: 1000px;
 }
 
 #pagebottomcontent figure {
   margin-inline-start: 0%;
   margin-inline-end: 0%;
-  max-width: 25%;
-  max-height: 100%;
   padding: 0%;
   margin: 0%;
 }
@@ -112,7 +110,7 @@ figcaption {
   font-size: 18px;
   }
 
-  }
+}
 
 
   @media screen and (min-width: 545px) and (max-width: 770px) {
@@ -144,7 +142,7 @@ figcaption {
 font-size: 35px;
 }
 
-  }
+}
 
 
 /*
