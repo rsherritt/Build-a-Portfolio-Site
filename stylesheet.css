@@ -58,6 +58,7 @@ hr {
 #pagebottomcontent {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   width: 100%
   max-width: 1000px;
@@ -68,6 +69,7 @@ hr {
   margin-inline-end: 0%;
   padding: 0%;
   margin: 0%;
+  width: 25%;
 }
 
 figcaption {
