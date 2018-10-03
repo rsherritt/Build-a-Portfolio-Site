@@ -5,7 +5,7 @@ The purpose of this project is to apply HTML, CSS and webpage responsiveness ski
 ## Finished Product
 Demo  
 
-<a href="http://htmlpreview.github.io/?https://github.com/rsherritt/Build-a-Portfolio-Site/blob/master/index.html"><img src="Build-a-Portfolio-Site/blob/master/images/portfoliosite.JPG" alt="portfolio Demo" /></a>
+<a href="http://htmlpreview.github.io/?https://github.com/rsherritt/Build-a-Portfolio-Site/blob/master/index.html"><img src="https://github.com/rsherritt/Build-a-Portfolio-Site/blob/master/images/portfoliosite.JPG" alt="portfolio Demo" /></a>
 
 ## Authors
 
