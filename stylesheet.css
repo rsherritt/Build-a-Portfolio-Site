@@ -69,11 +69,16 @@ hr {
   margin-inline-end: 0%;
   padding: 0%;
   margin: 0%;
-  width: 25%;
+  width: 33%;
 }
 
 figcaption {
   font-family: Helvetica;
+}
+
+/*google image is short and wide. created this padding to have text align with other contact section text*/
+.gmail img {
+  padding-bottom: 25px;
 }
 
 .udacitylogo {
@@ -81,6 +86,7 @@ figcaption {
   height: 100px;
   float: right;
 }
+
 
 /*Media Query Breakers*/
 
@@ -112,10 +118,15 @@ figcaption {
   font-size: 18px;
   }
 
+  /*google image is short and wide. created this padding to have text align with other contact section text*/
+  .gmail img {
+    padding-bottom: 10px;
+  }
+
 }
 
 
-  @media screen and (min-width: 545px) and (max-width: 770px) {
+  @media screen and (min-width: 545px) and (max-width: 768px) {
 
   #pagetopcontent .name {
     font-size: 35px;
@@ -142,6 +153,11 @@ figcaption {
 
 .contactsectiontitle {
 font-size: 35px;
+}
+
+/*google image is short and wide. created this padding to have text align with other contact section text*/
+.gmail img {
+  padding-bottom: 18px;
 }
 
 }
