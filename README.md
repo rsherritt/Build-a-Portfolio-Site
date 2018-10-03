@@ -1,6 +1,6 @@
 # Build a Portfolio Site
 
-The purpose of this project is to apply HTML, CSS and webpage responsiveness skills learned in the first section of Udacity's Front End Developer nanodegree.
+The purpose of this project is to apply HTML, CSS and webpage responsiveness skills to develop a personal portfolio webpage. Specifically, the skills learned in the first section of Udacity's Front End Developer Nanodegree.
 
 ## Finished Product Demo
 
