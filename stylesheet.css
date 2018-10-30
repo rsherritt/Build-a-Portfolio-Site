@@ -15,6 +15,12 @@ body {
    margin-bottom: 0%;
 }
 
+.profilepic {
+float:left;
+padding-bottom: 15px;
+clear: left;
+}
+
 #pagetopcontent .title {
    font-family: Helvetica;
    font-size: 30px;
@@ -44,6 +50,11 @@ hr {
    width: 100%;
    height: 400px;
    max-width: 1000px;
+}
+
+#pagebottomcontent img {
+   max-width: 33%;
+   max-height: 100%;
 }
 
 .contactsectiontitle {
