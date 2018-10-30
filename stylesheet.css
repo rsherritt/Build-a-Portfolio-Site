@@ -70,13 +70,11 @@ justify-content: space-between; works when I inspect page, but when I refresh pa
    flex-wrap: wrap;
    flex-direction: row;
    justify-content: space-between;
-   width: 100%
+   width: 100%;
    max-width: 1000px;
 }
 
 #pagebottomcontent figure {
-   margin-inline-start: 0%;
-   margin-inline-end: 0%;
    padding: 0%;
    margin: 0%;
    width: 33%;
