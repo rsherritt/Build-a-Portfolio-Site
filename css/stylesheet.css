@@ -16,9 +16,14 @@ body {
 }
 
 .profilepic {
-float:left;
+position: absolute;
 padding-bottom: 15px;
 clear: left;
+}
+
+.profilepic {
+   width: 200px;
+   height: 200px;
 }
 
 #pagetopcontent .title {
@@ -27,11 +32,6 @@ clear: left;
    font-style: italic;
    clear: right;
    text-align: right;
-}
-
-.profilepic {
-   width: 200px;
-   height: 200px;
 }
 
 hr {
@@ -107,8 +107,8 @@ figcaption {
     }
 
     .profilepic {
-      width: 100px;
-      height: 100px;
+      width: 75px;
+      height: 75px;
     }
 
     .udacitylogo {
@@ -142,8 +142,8 @@ figcaption {
     }
 
     .profilepic {
-       width: 150px;
-       height: 150px;
+       width: 125px;
+       height: 125px;
     }
 
     .udacitylogo {
